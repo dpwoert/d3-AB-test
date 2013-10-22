@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+	<script type="text/javascript" src="js/graph.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="topmenu">
+		<div class="container">
+			<h1>AB tests</h1>
+			<ul>
+				<li rel="zoom">Zoom</li>
+				<li rel="devices" class="devices active">Devices</li>
+				<li rel="returning" class="returning">Returning</li>
+			</ul>
+		</div>
+	</div>
+	<div class="gradient menu"></div>
+	<div id="mouseover"></div>
+
+	<div id="barchart">
+		<svg></svg>
+		<div class="gradient">
+	</div>
+
+	<div class="tooltip"><span class="text"></span><div></div></div>
+</body>
